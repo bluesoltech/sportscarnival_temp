@@ -6,6 +6,7 @@ import { SparklesCore } from "./components/ui/sparkles";
 function App() {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen w-screen bg-[#0c0c0c] gap-5">
+      {/* <div className="hidden"></div> */}
       <div className="h-[100px] w-[250px] absolute bg-yellow-500 blur-[200px]"></div>
       <div className="w-[80%] md:w-[30%]">
         <img src={logo} className="w-full h-auto" alt="" />
