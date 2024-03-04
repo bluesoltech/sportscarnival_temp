@@ -23,7 +23,7 @@ function App() {
         />
       </div>
       <div className="">
-        <img src={welcomegif} alt="no" />
+        <img src={welcomegif} className="w-[200px] h-auto md:w-full" alt="no" />
         <p className="text-gray-400 text-sm text-center uppercase">
           Comming Soon
         </p>
