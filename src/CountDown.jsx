@@ -45,7 +45,10 @@ const CountDown = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 text-white text-center auto-cols-max">
         <div className="w-[115px] text-gray-400 rounded-full m-2 sm:m-5 p-[5px]">
           <span className="text-white-600 font-bold text-4xl sm:text-5xl">
-            <span style={{ "--value": 15 }} className="text-white">
+            <span
+              style={{ "--value": 15 }}
+              className="text-white font-[digital-7] font-light"
+            >
               {timerDays}
             </span>
           </span>
@@ -53,7 +56,10 @@ const CountDown = () => {
         </div>
         <div className="w-[100px] text-gray-400 rounded-full m-2 sm:m-5  p-[5px]">
           <span className="text-white-600 font-bold text-4xl sm:text-5xl">
-            <span style={{ "--value": 10 }} className="text-white">
+            <span
+              style={{ "--value": 10 }}
+              className="text-white font-[digital-7] font-light"
+            >
               {timerHours}
             </span>
           </span>
@@ -61,7 +67,10 @@ const CountDown = () => {
         </div>
         <div className="w-[100px] text-gray-400 rounded-full m-2 sm:m-5  p-[5px]">
           <span className="text-white-600 font-bold text-4xl sm:text-5xl">
-            <span style={{ "--value": 24 }} className="text-white">
+            <span
+              style={{ "--value": 24 }}
+              className="text-white font-[digital-7] font-light"
+            >
               {timerMinuts}
             </span>
           </span>
@@ -69,7 +78,10 @@ const CountDown = () => {
         </div>
         <div className="w-[100px] text-gray-400 rounded-full m-2 sm:m-5  p-[5px]">
           <span className="text-white-600 font-bold text-4xl sm:text-5xl">
-            <span style={{ "--value": 20 }} className="text-white">
+            <span
+              style={{ "--value": 20 }}
+              className="text-white font-[digital-7] font-light"
+            >
               {timerSeconds}
             </span>
           </span>
